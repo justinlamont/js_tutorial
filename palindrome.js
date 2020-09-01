@@ -3,10 +3,6 @@ String.prototype.reverse = function() {
     return Array.from(this).reverse().join("");
 }
 
-String.prototype.blank = function() {
-    return 
-}
-
 // Defines a Phrase object.
 function Phrase(content) {
     this.content = content;
